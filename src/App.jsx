@@ -2,12 +2,54 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import AboutMe from './Components/AboutMe'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+
+    {/* // * Encabezado */}
+    <AboutMe />
+
+
+
+    {/* // * Sobre mí */}
+
+
+
+    {/* // * Tecnologías y habilidades */}
+    
+
+
+    {/* // * Experiencia */}
+
+
+
+    {/* // * Poryectos de GitHub */}
+    
+
+
+    {/* // * Cursos y formación */}
+    
+
+
+    {/* // * Extras */}
+
+    
+
+
+    {/* // * Contacto: */}
+
+
+
+
+
+
+
+
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
