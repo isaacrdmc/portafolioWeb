@@ -1,3 +1,5 @@
+import Contacto from "./contact.";
+
 export default function AboutMe() {
     return (
         <div className="container">
@@ -29,6 +31,8 @@ export default function AboutMe() {
                             <h1 className="fw-bold mb-1">Isaac Ramírez De María y Campos</h1>
                             <h2 className="h5 text-info mb-1">Desarrollador de software</h2>
                             <h4 className="h6 text-info mb-1">León, Guanajuato</h4>
+                            <br />
+                            <Contacto />
 
                             {/* <h1 className="fw-bold mb-1">Pepe</h1>
                             <h2 className="h5 text-success mb-1">Ing.DMS</h2>
